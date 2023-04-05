@@ -29,4 +29,8 @@ public class Student implements Comparable<Student>{
         int comparedSurname = this.surname.compareTo(student.surname);
         return comparedSurname;
     }
+
+    public void setPointsSum(double pointsSum) {
+        this.pointsSum = pointsSum;
+    }
 }
