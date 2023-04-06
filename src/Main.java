@@ -49,6 +49,12 @@ public class Main {
         class1.max();
         ClassContainer gradebook = new ClassContainer();
         gradebook.addClass("Class 1", class1);
-
+        gradebook.addClass("Class 1", class1);
+        Class class2 = new Class("Class 2", 2);
+        gradebook.addClass("Class 2", class2);
+        List emptyClass = gradebook.findEmpty();
+        gradebook.summary();
+        gradebook.removeClas("Class 2");
+        gradebook.summary();
     }
 }
