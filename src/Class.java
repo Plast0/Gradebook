@@ -26,7 +26,7 @@ public class Class {
             }
             if (comparableInt != 0) {
                 listOfStudents.add(student);
-                System.out.println("Student was added to the group.");
+                System.out.println(student.name + " "+ student.surname+" was added to the group.");
             } else {
                 System.out.println("You can't add student with the same surname again to this group.");
             }
@@ -53,7 +53,7 @@ public class Class {
 
     void removePoints(Student student, double points){
         student.pointsSum -= points;
-        System.out.println(student+" lost "+ points+ " points.");
+        System.out.println(student.name+ " "+ student.surname+" lost "+ points+ " points.");
     }
     void  search(String name){
         boolean isOnTheList = false;

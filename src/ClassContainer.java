@@ -8,7 +8,7 @@ public class ClassContainer {
         if (classMap.containsKey(groupName) || classMap.containsKey(className)) System.out.println("This class has already been added.");
         else {
             classMap.put(groupName, className);
-            System.out.println("Class was added to gradebook");
+            System.out.println(groupName +" was added to gradebook");
         }
     }
     void removeClas(String groupName){
