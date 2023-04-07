@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb712df0-7021-4aae-8df8-7815ce453e26" name="Changes" comment="commit 05_04_2023">
+    <list default="true" id="fb712df0-7021-4aae-8df8-7815ce453e26" name="Changes" comment="commit 07_04_2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentCondition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680711740722</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit 07_04_2023">
+      <created>1680870971547</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680870971547</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="commit 05_04_2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 05_04_2023" />
+    <MESSAGE value="commit 07_04_2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 07_04_2023" />
   </component>
 </project>

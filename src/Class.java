@@ -90,7 +90,7 @@ public class Class {
         System.out.println("Students that are "+ condition +": ");
         for(Student studentSearch : listOfStudents ) {
             if (condition == studentSearch.condition) {
-                System.out.println(studentSearch.toString());
+                System.out.println(studentSearch.name + " "+ studentSearch.surname);
                 hasCondition = true;
             }
             if (hasCondition == false) {

@@ -28,7 +28,7 @@ public class Main {
         System.out.println("------------------Changing condition------------------");
         class1.changeCondition(student3, StudentCondition.ABSENT );
         class1.changeCondition(student2, StudentCondition.SICK );
-        class1.changeCondition(student5, StudentCondition.WORKING );
+        class1.changeCondition(student5, StudentCondition.REWORKING );
         System.out.println("------------------");
         class1.removePoints(student6, 10);
         System.out.println("------------------Looking for student that's on the list------------------");
